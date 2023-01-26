@@ -1,4 +1,4 @@
-.nav__responsive-ul{
+.nav__responsive{
 	display: none;
 }
 .nav{
@@ -16,4 +16,24 @@
 .nav__li i {
 	width: 30px;
 	color: white;
+}
+
+@media only screen and (max-width:500px) {
+
+	.nav {
+		display none;
+	}
+	.nav__ul{
+		display: none;
+	}
+	.nav__responsive {
+		display: block;
+		position: absolute;
+		width: 100%;
+		background-color: rgb(0, 0, 0);
+	}
+	.nav {
+		height: 37px;
+		width:100%;
+	}
 }
